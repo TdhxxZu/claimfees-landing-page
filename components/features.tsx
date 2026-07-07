@@ -3,33 +3,33 @@ import { Activity, BellRing, LineChart, Layers, ShieldCheck, Wallet } from "luci
 const features = [
   {
     icon: Activity,
-    title: "Pelacakan Real-Time",
-    desc: "Data gas fee diperbarui setiap detik langsung dari mempool tiap jaringan.",
+    title: "Real-Time Tracking",
+    desc: "Gas fee data refreshed every second straight from each network's mempool.",
   },
   {
     icon: BellRing,
-    title: "Peringatan Pintar",
-    desc: "Dapat notifikasi Telegram, email, atau push saat gas turun ke ambang targetmu.",
+    title: "Smart Alerts",
+    desc: "Get Telegram, email, or push notifications when gas drops to your target threshold.",
   },
   {
     icon: LineChart,
-    title: "Prediksi Biaya",
-    desc: "Model kami memprediksi jendela biaya terendah dalam 1–24 jam ke depan.",
+    title: "Fee Prediction",
+    desc: "Our model forecasts the lowest-cost windows over the next 1–24 hours.",
   },
   {
     icon: Layers,
     title: "Multi-Chain",
-    desc: "Pantau Ethereum, L2, dan chain populer lainnya dalam satu dasbor.",
+    desc: "Monitor Ethereum, L2s, and other popular chains from a single dashboard.",
   },
   {
     icon: Wallet,
-    title: "Estimasi per Aksi",
-    desc: "Lihat perkiraan biaya untuk swap, mint, transfer, dan approve sekaligus.",
+    title: "Per-Action Estimates",
+    desc: "See estimated costs for swaps, mints, transfers, and approvals all at once.",
   },
   {
     icon: ShieldCheck,
-    title: "Tanpa Kunci Privat",
-    desc: "Hanya membaca data on-chain. Kami tidak pernah menyentuh dompetmu.",
+    title: "No Private Keys",
+    desc: "We only read on-chain data. We never touch your wallet.",
   },
 ]
 
@@ -39,14 +39,14 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <span className="font-mono text-xs uppercase tracking-widest text-primary">
-            Fitur
+            Features
           </span>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Semua yang kamu butuhkan untuk waktui transaksi
+            Everything you need to time your transactions
           </h2>
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Rangkaian alat presisi yang dibuat untuk trader, builder, dan siapa pun yang
-            lelah bayar gas mahal.
+            A precision toolkit built for traders, builders, and anyone tired of
+            overpaying for gas.
           </p>
         </div>
 

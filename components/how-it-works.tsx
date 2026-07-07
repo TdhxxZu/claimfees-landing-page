@@ -1,18 +1,18 @@
 const steps = [
   {
     step: "01",
-    title: "Hubungkan dompet",
-    desc: "Tambahkan alamat dompet atau pilih jaringan yang ingin kamu pantau. Cukup baca-saja, tanpa izin transaksi.",
+    title: "Connect your wallet",
+    desc: "Add a wallet address or pick the networks you want to monitor. Read-only, no transaction permissions.",
   },
   {
     step: "02",
-    title: "Atur ambang batas",
-    desc: "Tentukan target gas fee dan jenis transaksi. ClaimFees akan mengawasi mempool 24/7 untukmu.",
+    title: "Set your threshold",
+    desc: "Define your target gas fee and transaction type. ClaimFees watches the mempool 24/7 for you.",
   },
   {
     step: "03",
-    title: "Bertransaksi saat murah",
-    desc: "Terima peringatan begitu gas turun ke targetmu, lalu eksekusi transaksi di harga terbaik.",
+    title: "Transact when it's cheap",
+    desc: "Get alerted the moment gas drops to your target, then execute your transaction at the best price.",
   },
 ]
 
@@ -22,10 +22,10 @@ export function HowItWorks() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
           <span className="font-mono text-xs uppercase tracking-widest text-primary">
-            Cara kerja
+            How It Works
           </span>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Tiga langkah untuk mulai berhemat
+            Three steps to start saving
           </h2>
         </div>
 

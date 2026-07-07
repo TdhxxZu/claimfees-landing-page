@@ -5,10 +5,10 @@ import { Fuel, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { label: "Fitur", href: "#features" },
-  { label: "Jaringan", href: "#networks" },
-  { label: "Cara Kerja", href: "#how" },
-  { label: "Harga", href: "#pricing" },
+  { label: "Features", href: "#features" },
+  { label: "Networks", href: "#networks" },
+  { label: "How It Works", href: "#how" },
+  { label: "Pricing", href: "#pricing" },
 ]
 
 export function SiteHeader() {
@@ -24,7 +24,7 @@ export function SiteHeader() {
           <span className="text-lg font-semibold tracking-tight">ClaimFees</span>
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Utama">
+        <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
           {navLinks.map((link) => (
             <a
               key={link.href}
@@ -38,15 +38,15 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-3 md:flex">
           <Button variant="ghost" size="sm">
-            Masuk
+            Log In
           </Button>
-          <Button size="sm">Mulai Gratis</Button>
+          <Button size="sm">Get Started</Button>
         </div>
 
         <button
           className="inline-flex size-9 items-center justify-center rounded-md border border-border text-foreground md:hidden"
           onClick={() => setOpen((v) => !v)}
-          aria-label={open ? "Tutup menu" : "Buka menu"}
+          aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
         >
           {open ? <X className="size-5" /> : <Menu className="size-5" />}
@@ -68,9 +68,9 @@ export function SiteHeader() {
             ))}
             <div className="mt-2 flex flex-col gap-2">
               <Button variant="outline" size="sm">
-                Masuk
+                Log In
               </Button>
-              <Button size="sm">Mulai Gratis</Button>
+              <Button size="sm">Get Started</Button>
             </div>
           </nav>
         </div>

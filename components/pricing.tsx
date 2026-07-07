@@ -4,36 +4,36 @@ import { cn } from "@/lib/utils"
 
 const plans = [
   {
-    name: "Gratis",
+    name: "Free",
     price: "$0",
-    period: "/bln",
-    desc: "Untuk pengguna kasual.",
-    features: ["3 jaringan", "Data real-time", "1 peringatan aktif", "Riwayat 24 jam"],
-    cta: "Mulai Gratis",
+    period: "/mo",
+    desc: "For casual users.",
+    features: ["3 networks", "Real-time data", "1 active alert", "24-hour history"],
+    cta: "Get Started",
     featured: false,
   },
   {
     name: "Pro",
     price: "$12",
-    period: "/bln",
-    desc: "Untuk trader aktif.",
+    period: "/mo",
+    desc: "For active traders.",
     features: [
-      "Semua 14+ jaringan",
-      "Peringatan tak terbatas",
-      "Prediksi biaya 24 jam",
-      "Notifikasi Telegram & API",
-      "Riwayat 90 hari",
+      "All 14+ networks",
+      "Unlimited alerts",
+      "24-hour fee prediction",
+      "Telegram & API notifications",
+      "90-day history",
     ],
-    cta: "Coba Pro",
+    cta: "Try Pro",
     featured: true,
   },
   {
-    name: "Tim",
+    name: "Team",
     price: "$49",
-    period: "/bln",
-    desc: "Untuk protokol & tim.",
-    features: ["Semua fitur Pro", "5 anggota tim", "Webhook & akses API penuh", "Dukungan prioritas"],
-    cta: "Hubungi Kami",
+    period: "/mo",
+    desc: "For protocols & teams.",
+    features: ["Everything in Pro", "5 team members", "Webhooks & full API access", "Priority support"],
+    cta: "Contact Us",
     featured: false,
   },
 ]
@@ -43,9 +43,9 @@ export function Pricing() {
     <section id="pricing" className="border-b border-border py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="font-mono text-xs uppercase tracking-widest text-primary">Harga</span>
+          <span className="font-mono text-xs uppercase tracking-widest text-primary">Pricing</span>
           <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-            Bayar sekali murah, hemat berkali-kali
+            Pay a little once, save again and again
           </h2>
         </div>
 
@@ -62,7 +62,7 @@ export function Pricing() {
                 <h3 className="text-lg font-medium">{plan.name}</h3>
                 {plan.featured && (
                   <span className="rounded-full bg-primary px-2.5 py-0.5 font-mono text-xs text-primary-foreground">
-                    Populer
+                    Popular
                   </span>
                 )}
               </div>

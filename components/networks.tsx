@@ -16,14 +16,14 @@ export function Networks() {
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div className="max-w-2xl">
             <span className="font-mono text-xs uppercase tracking-widest text-primary">
-              Jaringan
+              Networks
             </span>
             <h2 className="mt-3 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-              14+ jaringan dalam satu tampilan
+              14+ networks in a single view
             </h2>
           </div>
           <p className="font-mono text-xs text-muted-foreground">
-            * angka bersifat ilustratif
+            * figures are illustrative
           </p>
         </div>
 

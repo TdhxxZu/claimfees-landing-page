@@ -19,9 +19,9 @@ const chains = [
 ]
 
 const speeds: Speed[] = [
-  { label: "Cepat", base: 42, eta: "~15 dtk", tone: "primary" },
-  { label: "Normal", base: 31, eta: "~45 dtk", tone: "accent" },
-  { label: "Hemat", base: 22, eta: "~3 mnt", tone: "muted" },
+  { label: "Fast", base: 42, eta: "~15 sec", tone: "primary" },
+  { label: "Normal", base: 31, eta: "~45 sec", tone: "accent" },
+  { label: "Economy", base: 22, eta: "~3 min", tone: "muted" },
 ]
 
 function jitter(base: number) {
@@ -55,7 +55,7 @@ export function GasPanel() {
             Live gas
           </span>
         </div>
-        <span className="font-mono text-xs text-muted-foreground">diperbarui tiap 2 dtk</span>
+        <span className="font-mono text-xs text-muted-foreground">updates every 2s</span>
       </div>
 
       <div className="mb-4 flex flex-wrap gap-1.5">
@@ -110,7 +110,7 @@ export function GasPanel() {
       </div>
 
       <div className="mt-4 flex items-center justify-between border-t border-border/60 pt-4">
-        <span className="font-mono text-xs text-muted-foreground">Est. transfer ETH</span>
+        <span className="font-mono text-xs text-muted-foreground">Est. ETH transfer</span>
         <span className="font-mono text-sm font-medium text-primary">
           ${(values[1] * 0.09).toFixed(2)}
         </span>

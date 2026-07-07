@@ -18,19 +18,19 @@ export function CtaFooter() {
             />
             <div className="relative">
               <h2 className="mx-auto max-w-2xl text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-                Mulai hemat gas fee hari ini
+                Start saving on gas fees today
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-                Gratis untuk memulai, tanpa kartu kredit. Pantau gas real-time dalam kurang
-                dari satu menit.
+                Free to start, no credit card required. Monitor gas in real time in
+                under a minute.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <Button size="lg" className="gap-2">
-                  Buat Akun Gratis
+                  Create Free Account
                   <ArrowRight className="size-4" />
                 </Button>
                 <Button size="lg" variant="outline">
-                  Baca Dokumentasi
+                  Read the Docs
                 </Button>
               </div>
             </div>
@@ -49,32 +49,32 @@ export function CtaFooter() {
                 <span className="text-lg font-semibold tracking-tight">ClaimFees</span>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-                Pelacak gas fee kripto real-time untuk membantumu bertransaksi lebih hemat.
+                Real-time crypto gas fee tracker to help you transact for less.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
               <FooterCol
-                title="Produk"
-                links={["Fitur", "Jaringan", "Harga", "API"]}
+                title="Product"
+                links={["Features", "Networks", "Pricing", "API"]}
               />
               <FooterCol
-                title="Sumber Daya"
-                links={["Dokumentasi", "Blog", "Status", "Panduan Gas"]}
+                title="Resources"
+                links={["Docs", "Blog", "Status", "Gas Guide"]}
               />
               <FooterCol
-                title="Perusahaan"
-                links={["Tentang", "Kontak", "Privasi", "Ketentuan"]}
+                title="Company"
+                links={["About", "Contact", "Privacy", "Terms"]}
               />
             </div>
           </div>
 
           <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
             <p className="font-mono text-xs text-muted-foreground">
-              © {new Date().getFullYear()} ClaimFees. Semua hak dilindungi.
+              © {new Date().getFullYear()} ClaimFees. All rights reserved.
             </p>
             <p className="font-mono text-xs text-muted-foreground">
-              Dibuat untuk komunitas Web3.
+              Built for the Web3 community.
             </p>
           </div>
         </div>

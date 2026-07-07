@@ -7,9 +7,9 @@ const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'ClaimFees — Pelacak Gas Fee Kripto Real-Time',
+  title: 'ClaimFees — Real-Time Crypto Gas Fee Tracker',
   description:
-    'Pantau gas fee di berbagai jaringan blockchain secara real-time. Waktui transaksimu dengan tepat dan hemat biaya gas hingga puluhan persen bersama ClaimFees.',
+    'Monitor gas fees across blockchain networks in real time. Time your transactions precisely and cut gas costs by tens of percent with ClaimFees.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="id" className={`${geistSans.variable} ${geistMono.variable} bg-background`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} bg-background`}>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
